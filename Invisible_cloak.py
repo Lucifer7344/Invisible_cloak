@@ -19,7 +19,7 @@ import time
 
 print(cv2.__version__)
 # capture is used to capture the camera footage to give the camera number otherwise give the video link
-capture_camera = cv2.VideoCapture("video6.mp4")
+capture_camera = cv2.VideoCapture(0)
 time.sleep(1)
 count = 0
 background = 0
